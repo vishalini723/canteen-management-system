@@ -1,23 +1,24 @@
-# 🌾 Crop Price Predictor (Mini Project)
+# 🍽️ Canteen Management System  
 
-A web app that predicts crop prices based on temperature, rainfall, and crop type using a machine learning model.
-
----
-
-## 🛠 Tech Stack
-- **Flask**  
-- **Python**  
-- **Joblib**  
-- **NumPy**  
+A ReactJS-based food ordering system with QR code login, admin management, and a subscription-based coin system.  
 
 ---
 
-## ✨ Features
-- Predicts crop prices from user input.  
-- Handles temperature, rainfall, and crop type data.  
-- Flask backend for quick processing.  
-- Machine learning model for accurate results.  
-- Future enhancement: Real-time data and IoT integration.  
+## 🛠 Tech Stack  
+- **ReactJS**  
+- **Node.js**  
+- **MongoDB**  
+- **Express**  
+- **xlsx**  
+
+---
+
+## ✨ Features  
+- **QR Code Login:** Fast user authentication by scanning a QR code.  
+- **Subscription Coin System:** Users enter an amount, get admin approval, and receive coins for purchases.  
+- **Food Ordering & Cart:** Browse food items, add to cart, and place orders with MongoDB storage.  
+- **Admin Dashboard:** Manage users, orders, and product availability.  
+- **Monthly Reports:** Generate order reports by selecting month and year.  
 
 ---
 
@@ -25,22 +26,25 @@ A web app that predicts crop prices based on temperature, rainfall, and crop typ
 
 1. **Clone the repository:**  
    
-   git clone https://github.com/yourusername/crop-price-predictor
+   git clone https://github.com/yourusername/canteen-management-system
 Install dependencies:
-pip install flask numpy joblib
-Run the app:
-python app.py
-Open in your browser:
-http://localhost:5000
+npm install
+Run the backend server:
+npm run server
+Run the frontend:
+npm start
+Open the app in your browser:
+http://localhost:3000
+
 🔥 Future Enhancements
-Real-time data integration.
+Payment gateway integration for online transactions.
 
-IoT sensor data for live crop monitoring.
+Push notifications for order status.
 
-More crop types and dynamic price suggestions.
+Improved admin analytics dashboard.
 
 📌 License
-This project is for educational purposes only. Feel free to modify and expand it!
+This project is for educational purposes — feel free to extend it!
 
 💪 Happy Coding!
 
